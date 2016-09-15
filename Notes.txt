@@ -1,0 +1,83 @@
+look up:
+
+flow types
+
+stringify parameters
+
+javascript prototypal inheritance vs. classical
+
+autobinding
+
+synthetic event
+
+tracked vs untracked inputs
+
+core decorators
+
+es6 backtick
+
+brian longdorf - functional programming
+
+debouncing (filtering shows)
+batching
+service worker
+
+memoization (state questions)
+
+diffing
+
+react & electron (wtf)
+
+IMSI catcher
+
+debouncing input
+
+regression
+
+hydra
+
+live reload (css)
+hot module reload (js)
+
+function bar(x,y){
+  var z;
+  foo(x);
+  return [y,z];
+
+  function foo(x){
+    y++
+    z = x * y
+  }
+}
+
+bar(20)
+
+
+
+// ({}) means an implicit return
+const mapStateToProps = (state) => ({ searchTerm: state.searchTerm })
+
+same as =
+
+const mapStateToProps = (state) => { 
+  return { searchTerm: state.searchTerm }
+}
+
+Providers:
+  passes to store whereever you ask for it
+
+
+dynamic dispatch
+
+underscore/lo dash
+
+default params(es6)
+
+
+
+
+
+
+
+
+
